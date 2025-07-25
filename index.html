@@ -12,39 +12,182 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<!-- Bebas Neue -->
+
 <body class="font-[Roboto]">
-
-    <!-- nav -->
-    <div class="flex border-2 border-red-400 justify-between items-center w-[1400px] mx-auto mt-8">
-        <div>
-         <img class="w-[300px]" src="assets/logo.png" alt="">
-        </div>
-       <div class="hidden sm:block">
-           <a class="font-medium mr-12" href="#">Home</a>
-           <a class="font-medium mr-12" href="#">Product</a>
-           <a class="font-medium mr-12" href="#">About Us </a>
-           <a class="font-medium mr-12" href="#">Contact Us</a>
+   <header>
+         <!-- nav -->
+       <div class="flex justify-between items-center w-[1400px] mx-auto mt-8">
+           <div>
+            <img class="w-[300px]" src="assets/logo.png" alt="">
+           </div>
+          <div class="hidden sm:block">
+              <a class="font-medium mr-12" href="#">Home</a>
+              <a class="font-medium mr-12" href="#">Product</a>
+              <a class="font-medium mr-12" href="#">About Us </a>
+              <a class="font-medium mr-12" href="#">Contact Us</a>
+          </div>
+          <div class="block sm:hidden">
+           <i class="fa-solid fa-bars"></i>
+          </div>
        </div>
-       <div class="block sm:hidden">
-        <i class="fa-solid fa-bars"></i>
+   
+       <!--Header Banner -->
+       <div class="w-[1400px] mx-auto mt-10  flex flex-col sm:flex-row justify-between">
+           <div class="flex items-center">
+               <div>
+                  <h1 class="text-6xl font-semibold font-[Bebas_Neue]"><span class="text-[#FABE4C]">BE THE PENGUINS</span><br>OF WINTER</h1>
+                  <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, pariatur.</p>
+                  <button class="w-[170px] h-[60px] bg-linear-to-b from-[#a4bc46] to-[#85a019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping mr-2"></i> Click Me</button>
+               </div>
+           </div>
+           <div class="sm:pr-[100px]">
+               <img class="w-full" src="assets/model.png" alt="model">
+           </div>
        </div>
-    </div>
+   </header>
 
-    <!--Header Banner -->
-    <div class="border-2 border-red-400 w-[1400px] mx-auto mt-10  flex justify-between">
-        <div class="flex items-center ">
+   <main>
+
+    <!-- Women-Jacket-Section -->
+       <div class="w-[1400px] mx-auto my-20"> 
             <div>
-               <h1 class="text-6xl font-semibold font-[Bebas_Neue]"><span class="text-[#FABE4C]">BE THE PENGUINS</span><br>OF WINTER</h1>
-               <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, pariatur.</p>
-               <button class="w-[170px] h-[60px] bg-linear-to-b from-[#a4bc46] to-[#85a019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping mr-2"></i> Buy Now</button>
+                <h1 class="px-5 text-4xl font-extrabold font-[Bebas_Neue] my-8">Women Jackets</h1>
             </div>
-        </div>
-        <div class="pr-[100px]">
-            <img class="w-full" src="assets/model.png" alt="model">
-        </div>
-    </div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div class="max-w-[425px] min-h-[300px] p-[18px] shadow-2xl mx-auto">
+                   <div class="bg-gray-200 flex justify-center py-5 rounded-2xl">
+                      <img class="w-[300px]" src="assets/jacket-1.png" alt="jacket">
+                   </div>
+                   <div>
+                      <h1 class="mt-4 text-2xl font-bold">Yellow Coat Jacket</h1>
+                      <p class="mt-3">Bright and cozy yellow coat jacket for a stylish winter look. Designed for warmth with a bold fashion.</p>
+                      <div class="flex items-center justify-between">
+                          <p class="text-3xl font-black text-[#FABE4C]">$ 699</p>
+                          <button class="w-[170px] h-[60px] bg-linear-to-b from-[#a4bc46] to-[#85a019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping mr-2"></i> Buy Now</button>
+                      </div>
+                   </div>
+                </div>
 
+                <div class="max-w-[425px] min-h-[300px] p-[18px] shadow-2xl mx-auto">
+                    <div class="bg-gray-200 flex justify-center py-5 rounded-2xl">
+                        <img class="w-[300px]" src="assets/jacket-3.png" alt="jacket">
+                    </div>
+                    <div>
+                        <h1 class="mt-4 text-2xl font-bold">Women Leather Jacket</h1>
+                        <p class="mt-3">Bold and edgy red leather jacket that elevates any outfit. Crafted for comfort with a sleek, modern fit.</p>
+                        <div class="flex items-center justify-between">
+                           <p class="text-3xl font-black text-[#FABE4C]">$ 1405</p>
+                           <button class="w-[170px] h-[60px] bg-linear-to-b from-[#a4bc46] to-[#85a019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping mr-2"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+     
+                <div class="max-w-[425px] mx-auto min-h-[300px] p-[18px] shadow-2xl">
+                    <div class="bg-gray-200 flex justify-center py-5 rounded-2xl">
+                        <img class="w-[300px]" src="assets/jacket-2.png" alt="jacket">
+                    </div>
+                    <div>
+                        <h1 class="mt-4 text-2xl font-bold">Ledies Jacket</h1>
+                        <p class="mt-3">Chic and cheerful yellow jacket tailored for women. Combines elegance with everyday comfort.</p>
+                        <div class="flex items-center justify-between">
+                           <p class="text-3xl font-black text-[#FABE4C]">$ 1599</p>
+                           <button class="w-[170px] h-[60px] bg-linear-to-b from-[#a4bc46] to-[#85a019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping mr-2"></i> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+           </div>
+       </div>
+
+    <!-- Men-Jacket-Section -->
+       <div class="w-[1400px] mx-auto my-20"> 
+            <div>
+                <h1 class="px-5 text-4xl font-extrabold font-[Bebas_Neue] my-8">Men Jackets</h1>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <div class="max-w-[425px] min-h-[300px] p-[18px] shadow-2xl mx-auto">
+                  <div class="bg-gray-200 flex justify-center py-5 rounded-2xl">
+                      <img class="w-[300px]" src="assets/jacket-4.png" alt="jacket">
+                  </div>
+                  <div>
+                      <h1 class="mt-4 text-2xl font-bold">Snowboard Jacket Man</h1>
+                      <p class="mt-3">Durable and insulated snowboard jacket built for extreme conditions. Stay warm, dry, and stylish.</p>
+                      <div class="flex items-center justify-between">
+                          <p class="text-3xl font-black text-[#FABE4C]">$ 1199</p>
+                          <button class="w-[170px] h-[60px] bg-linear-to-b from-[#a4bc46] to-[#85a019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping mr-2"></i> Buy Now</button>
+                      </div>
+                  </div>
+                </div>
+
+               <div class="max-w-[425px] min-h-[300px] p-[18px] shadow-2xl mx-auto">
+                  <div class="bg-gray-200 flex justify-center py-5 rounded-2xl">
+                      <img class="w-[300px]" src="assets/jacket-6.png" alt="jacket">
+                  </div>
+                  <div>
+                      <h1 class="mt-4 text-2xl font-bold">Women Leather Jacket</h1>
+                      <p class="mt-3">Versatile and lightweight men’s casual jacket for everyday wear. Blends comfort with effortless style.</p>
+                      <div class="flex items-center justify-between">
+                          <p class="text-3xl font-black text-[#FABE4C]">$ 900</p>
+                          <button class="w-[170px] h-[60px] bg-linear-to-b from-[#a4bc46] to-[#85a019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping mr-2"></i> Buy Now</button>
+                      </div>
+                  </div>
+                </div>
+     
+               <div class="max-w-[425px] mx-auto min-h-[300px] p-[18px] shadow-2xl">
+                  <div class="bg-gray-200 flex justify-center py-5 rounded-2xl">
+                      <img class="w-[300px]" src="assets/jacket-5.png" alt="jacket">
+                  </div>
+                  <div>
+                      <h1 class="mt-4 text-2xl font-bold">Man Leather Jacket</h1>
+                      <p class="mt-3">Classic and rugged men’s leather jacket for timeless style. Designed for comfort, built to last.</p>
+                      <div class="flex items-center justify-between">
+                          <p class="text-3xl font-black text-[#FABE4C]">$ 1799</p>
+                          <button class="w-[170px] h-[60px] bg-linear-to-b from-[#a4bc46] to-[#85a019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping mr-2"></i> Buy Now</button>
+                      </div>
+                  </div>
+                </div>
+           </div>
+       </div>
+
+    <!-- Our Services-Section -->
+     <div class=" w-[1400px] mx-auto my-20 flex flex-col-reverse sm:flex-row justify-between">
+        <div class="sm:w-[47%] p-3 mt-10 sm:mt-0">
+          <div class="flex text-center sm:text-left flex-col sm:flex-row items-center gap-8 p-5 rounded-lg shadow-lg mb-5">
+                <div>
+                    <img class="w-full mr-11" src="assets/house.png" alt="house">
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold mb-3">Find The Perfect Fit</h1>
+                    <p>Discover jackets that match your style, size, and comfort needs. Our service ensures the right fit—every time. Because the perfect fit makes all the difference.</p>
+                </div>
+          </div>
+
+          <div class="flex text-center sm:text-left flex-col sm:flex-row  items-center gap-8 p-5 rounded-lg shadow-lg mb-5">
+                <div>
+                    <img class="w-full" src="assets/box.png" alt="house">
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold mb-3">Free Excheanges</h1>
+                    <p>Enjoy hassle-free shopping with free size and style exchanges."Let me know if you want it even shorter or more attention-grabbing.</p>
+                </div>
+          </div>
+
+          <div class="flex text-center sm:text-left flex-col sm:flex-row  items-center gap-8 p-5 rounded-lg shadow-lg">
+                <div>
+                    <img class="w-full" src="assets/question.png" alt="house">
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold mb-3">Contact Our Seller</h1>
+                    <p>Have questions or need more info? Contact our seller directly for quick, friendly support and personalized assistance.</p>
+                </div>
+          </div>
+        </div>
+
+        <div class="sm:w-[47%] py-5 flex  items-center">
+            <img class="w-[90%]" src="assets/shopping.png" alt="">
+        </div>
+     </div>
+
+   </main>
 
 </body>
 </html>
