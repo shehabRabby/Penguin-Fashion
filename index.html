@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguine Fashion</title>
+    <!-- Font-awsome-cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    
+<!-- Bebas Neue -->
+<body class="font-[Roboto]">
+
+    <!-- nav -->
+    <div class="flex border-2 border-red-400 justify-between items-center w-[1400px] mx-auto mt-8">
+        <div>
+         <img class="w-[300px]" src="assets/logo.png" alt="">
+        </div>
+       <div class="hidden sm:block">
+           <a class="font-medium mr-12" href="#">Home</a>
+           <a class="font-medium mr-12" href="#">Product</a>
+           <a class="font-medium mr-12" href="#">About Us </a>
+           <a class="font-medium mr-12" href="#">Contact Us</a>
+       </div>
+       <div class="block sm:hidden">
+        <i class="fa-solid fa-bars"></i>
+       </div>
+    </div>
+
+    <!--Header Banner -->
+    <div class="border-2 border-red-400 w-[1400px] mx-auto mt-10  flex justify-between">
+        <div class="flex items-center ">
+            <div>
+               <h1 class="text-6xl font-semibold font-[Bebas_Neue]"><span class="text-[#FABE4C]">BE THE PENGUINS</span><br>OF WINTER</h1>
+               <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, pariatur.</p>
+               <button class="w-[170px] h-[60px] bg-linear-to-b from-[#a4bc46] to-[#85a019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping mr-2"></i> Buy Now</button>
+            </div>
+        </div>
+        <div class="pr-[100px]">
+            <img class="w-full" src="assets/model.png" alt="model">
+        </div>
+    </div>
+
+
 </body>
 </html>
